@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import urllib
+import pandas as pd
+import numpy as np
 
 @st.cache
 def get_UN_data():
